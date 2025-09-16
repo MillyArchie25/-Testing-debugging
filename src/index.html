@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS & JavaScript Animations</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>CSS3 + JavaScript Animations Demo</h1>
+
+  <!-- Part 1: CSS3 Transitions & Animations -->
+  <section>
+    <h2>Part 1: CSS Transitions & Animations</h2>
+    <button class="btn">Hover Me</button>
+    <div class="fade-box">I fade in/out</div>
+    <div class="slide-box">I slide back & forth</div>
+  </section>
+
+  <!-- Part 2: JavaScript Functions -->
+  <section>
+    <h2>Part 2: JavaScript Functions</h2>
+    <p id="scope-demo"></p>
+    <button onclick="showCalculation()">Calculate Something</button>
+  </section>
+
+  <!-- Part 3: Combining CSS + JS -->
+  <section>
+    <h2>Part 3: CSS + JS Together</h2>
+    <button id="animate-btn">Animate the Box</button>
+    <div id="animated-box"></div>
+
+    <button id="toggle-modal">Toggle Modal</button>
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <p>This is a modal!</p>
+        <button id="close-modal">Close</button>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
